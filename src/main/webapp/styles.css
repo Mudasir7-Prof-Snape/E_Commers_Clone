@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffcc00;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 100vh;
+}
+.container{
+	background-color: white;
+	box-shadow: 0 0px 13px 3px #444444;
+	padding:20px;
+	border-radius: 10px;
+}
+input {
+  width: 60%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #495057;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #ced4da;
+  outline: none;
+}
+input:hover {
+  border: 3px solid #ccc;
+}
+button{
+font-size: 20px;
+padding:5px;
+}
